@@ -7,10 +7,10 @@ A Machine Learning-based project aimed at detecting and classifying spam comment
 ## 🔗 Project Repository Structure  
 ```
 
-youtube-spam-comments-detection/
-├── spam\_comments.csv               # Dataset used for training and testing
-├── YouTube\_Spam\_Detection.ipynb   # Jupyter Notebook with preprocessing, modeling, and analysis
-├── YouTube\_Spam\_Analysis.pptx     # Presentation summarizing approach, models used, and insights
+Youtube-Spam-Comments-Detection-Analyzing-Various-Models/
+├── Youtube_Comments.csv               # Dataset used for training and testing
+├── Code.ipynb                         # Jupyter Notebook with preprocessing, modeling, and analysis
+├── Code_Analysis.pptx                 # Presentation summarizing approach, models used, and insights
 
 ````
 
@@ -42,8 +42,11 @@ pip install -r requirements.txt
 
 ### 3. Run the Notebook
 
-Launch Jupyter and open the notebook to explore preprocessing, model training, and evaluation: jupyter notebook YouTube_Spam_Detection.ipynb
+Launch Jupyter and open the notebook to explore preprocessing, model training, and evaluation:
 
+```bash
+Code.ipynb
+```
 
 ## 📦 Tech Stack
 
@@ -57,8 +60,3 @@ Launch Jupyter and open the notebook to explore preprocessing, model training, a
 * Determined the most accurate and generalizable model for classifying YouTube spam comments.
 * Visualized model performance to interpret strengths and weaknesses.
 * Created a repeatable framework for spam detection that can be extended to other platforms like Twitter or Reddit.
-
-## 💡 Future Scope
-* Integrate model into a live moderation tool or browser extension.
-* Extend classification to include **sentiment detection** or **toxicity analysis**.
-* Deploy as a **REST API** for real-time spam detection on comment sections.
